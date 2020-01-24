@@ -7,8 +7,8 @@
         "test": "test"
     },
     "dependencies": {
-        "vmagic": "latest",
-        "bluebird": "3.5.0"
+        "bluebird": "3.5.0",
+        "vmagic": "latest"
     },
     "devDependencies": {
         "blanket": "^1.1.6",
