@@ -8,4 +8,4 @@ if (process.env.PORT) {
   port = 5555
 }
 
-magic.start("https://south-commerce.herokuapp.com", port);
+magic.start('0.0.0.0', port);
