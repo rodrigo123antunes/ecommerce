@@ -1,2 +1,2 @@
-vMagic Framework
+south commerce
 ------------
