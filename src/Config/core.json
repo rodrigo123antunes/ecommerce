@@ -2,11 +2,11 @@
 	"dataSources" : {
 		"default" : {
 			"dataSource" : "PgSQL",
-			"host" : "127.0.0.1",
+			"host" : "ec2-52-45-75-24.compute-1.amazonaws.com",
 			"port" : 5432,
-			"user" : "postgres",
-			"password" : "ckdr35251665",
-			"database" : "loja"
+			"user" : "sueikxoqalawvu",
+			"password" : "e9881375b8d61df6db86f43ba1e1d36e8edd3cfe3ee8873619f25f62848010cb",
+			"database" : "dc44h8db5ar7ds"
 		},
 		"test" : {
 			"dataSource" : "PgSQL",
