@@ -1,0 +1,33 @@
+{
+    "name": "MagicProj",
+    "version": "1.0.0",
+    "description": "MagicProj is a RESTFul application.",
+    "main": "init.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "vmagic": "latest",
+        "bluebird": "3.5.0"
+    },
+    "devDependencies": {
+        "blanket": "^1.1.6",
+        "chai": "^4.2.0",
+        "grunt": "^1.0.2",
+        "grunt-contrib-watch": "^1.0.1",
+        "grunt-exec": "^0.4.6",
+        "grunt-jslint": "^1.1.12",
+        "load-grunt-tasks": "^4.0.0",
+        "mocha": "^5.2.0",
+        "istanbul": "^0.4.5",
+        "jslint": "^0.12.0",
+        "eslint": "^4.13.1"
+    },
+    "scripts": {
+        "test": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha test/**/*.js",
+        "test-code": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha $file",
+        "eslint": "node node_modules/eslint/bin/eslint.js src/**/*.js > eslint.out || (cat eslint.out && exit 1)"
+    },
+    "author": "",
+    "license": "Apache-2.0"
+}

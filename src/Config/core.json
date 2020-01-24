@@ -1,0 +1,28 @@
+{
+	"dataSources" : {
+		"default" : {
+			"dataSource" : "PgSQL",
+			"host" : "127.0.0.1",
+			"port" : 5432,
+			"user" : "postgres",
+			"password" : "ckdr35251665",
+			"database" : "loja"
+		},
+		"test" : {
+			"dataSource" : "PgSQL",
+			"host" : "127.0.0.1",
+			"port" : 5432,
+			"user" : "postgres",
+			"password" : "ckdr35251665",
+			"database" : "lojatest"
+		}
+	},
+	"email" : {
+		"service" : "gmail",
+		"from" : "myaccount@gmail.com",
+		"host" : "smpt...",
+		"port" : 25,
+		"username" : "myaccount",
+		"password" : "mypassword"
+	}
+}

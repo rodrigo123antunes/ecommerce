@@ -1,1 +1,2 @@
-# ecommerce
+vMagic Framework
+------------
