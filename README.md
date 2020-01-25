@@ -25,3 +25,11 @@ Após a instação das dependências execute:
 ```sh
 node init.js
 ```
+
+## Testes
+
+Execute:
+
+```sh
+npm run test
+```
